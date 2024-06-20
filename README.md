@@ -1,4 +1,4 @@
-# odpmkd (CAMBIADO)
+# odpmkd (CAMBIADO MÁS)
 A small set of tools to process OpenDocument Presentation files (ODP), and to transform them to markdown.
 It will work acceptably for the "lecture notes style" slides, AKA "presentation-as-a-document" style: mostly text structured in bullet points. It will not work well at all for more "presentation style" slides, where the visual aspect and the arrangement of elements in the slides is important.
 
