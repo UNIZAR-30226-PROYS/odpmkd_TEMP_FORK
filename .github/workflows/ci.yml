@@ -24,7 +24,7 @@ jobs:
           if [ -f requirements.txt ]; then pip install -r requirements.txt; fi
       - name: Basic tests
         run: |
-          python -m unitest discover -s tests -p 'tests_basic.py'
+          python -m unittest discover -s tests -p 'tests_basic.py'
   pack:
     needs: build
     runs-on: ubuntu-latest
