@@ -24,7 +24,7 @@ jobs:
           if [ -f requirements.txt ]; then pip install -r requirements.txt; fi
       - name: Basic tests
         run: |
-          python -m unittest discover -s tests -p 'testsbasic.py'
+          python -m unitest discover -s tests -p 'tests_basic.py'
       - name: Build package
         # For now, every version is an alpha (i.e., CI produced) version.
         # The base version is an attribute in __init__.py.
